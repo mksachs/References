@@ -1,0 +1,343 @@
+Overview of the Working Group for the Development of Regional Earthquake Likelihood Models (RELM)
+Edward H. Field
+
+Edward H. Field
+INTRODUCTION
+
+U.S. Geological Survey, Pasadena
+
+Seismic hazard analysis (SHA) requires two different types of models: (1) an earthquake rupture forecast, which gives the probability of all possible earthquake ruptures of concern throughout the region over a given time span; and (2) a groundmotion model that provides an estimate of shaking at a site for each earthquake rupture. This special issue of Seismological Research Letters (SRL) presents a variety of the first type-- earthquake rupture forecasts. But let's begin with some history. The 30-year, time-dependent forecast published by the 1995 Working Group on California Earthquake Probabilities (WGCEP 1995), also known as the Phase-2 report of the Southern California Earthquake Center (SCEC), predicted twice as many magnitude 6.5 to 7.0 earthquakes as had been observed historically. This apparent earthquake deficit was not good news for an insurance industry still licking its wounds from the 1994 M 6.7 Northridge earthquake. In fact, the report presumably contributed to the "insurance availability crisis" where, faced with a legal requirement to offer an earthquake option with any homeowners policy, 93 percent of companies doing business in California decided to restrict or halt coverage altogether (http://www.earthquakeauthority.com/CEAFactSheet. htm). In the lively debate that ensued over the earthquake deficit problem, it's interesting to note that the first shot was fired by the primary author of the report itself ( Jackson 1996), and that another author of the report fired back with an opposing view (Schwartz 1996). This exchange served to highlight an even more fundamental problem--that there is no agreement on how to build a time-dependent earthquake forecast, and it is therefore impossible to define a single, consensus model. Faced with this reality, SCEC decided to take a different approach by forming a southern California working group for the development of Regional Earthquake Likelihood Models (RELM). Rather than trying to build a single, consensus model, working group participants were encouraged to join with likeminded individuals and build the model they saw fit. The hope was that this free-market approach would spur healthy competition and avoid forcing consensus where none exists. Developing multiple models when we lack agreement is also important for defining uncertainties in our hazard estimates. That is, basing a seismic hazard analysis on a single model
+
+is akin to estimating an unknown probability distribution from a single sample--you really don't know how reliable it is until you have other samples. Therefore, and as discussed at length by the Senior Seismic Hazard Analysis Committee (SSHAC 1997), proper seismic hazard analysis demands that all viable models be considered in the analysis (or more practically, that a minimum number of models that span the range of viability and importance are included). Furthermore, applying multiple models will avoid dramatic changes in hazard estimates--something the users understandably loathe. Specifically, if you start with one model and add another, your "best estimate" (say, the median hazard) will change more dramatically than if you start with many models and go through a gradual process of elimination. Of course building multiple models is nontrivial, and doing so usually, and ironically, reveals more uncertainty than we originally thought we had. There is also the issue of our not knowing what we don't know (i.e., viable models that no one has yet identified). Nevertheless, the hope has been that the RELM approach would be an important step toward providing additional alternative models. Another hope has been that comparisons of RELM models would reveal what types of scientific studies are needed to resolve the differences (and thereby reduce hazard uncertainties) as well as identify what classes of models are exportable to regions where the options are fewer due to data limitations. Perhaps the most important aspect of the RELM effort has been to establish formal tests of the models against existing and future observations. Even if these tests do not provide conclusive results anytime soon, one must start sometime and somewhere, and doing so should at least reveal what it will take to make definitive judgments. This special issue of SRL presents the first-generation RELM forecasts. Twelve papers here give a brief description of the 18 different models, with more details given in either references or cited URLs. There is also a paper outlining a general testing methodology (Schorlemmer et al. 2007, this issue) and another paper on the test center where the RELM models have been submitted and locked down (Schorlemmer and Gerstenberger 2007, this issue). The goal of this overview is not to answer all the questions posed in this introduction (such as the uncertainty of current hazard estimates), nor to pass judgment on each model (even though virtually every paper justifies assumptions using declar7
+
+Seismological Research Letters Volume 78, Number 1 January/February 2007
+
+ative statements that others would argue with). In fact, both RELM and SRL have been fairly liberal in accommodating models as long as they are formally submitted and adequately documented. Those interested in a review of time-dependent earthquake-forecasting methodologies will not find one here, as others have recently filled this niche (e.g., Steacy et al. 2005, and references therein). What this paper does provide is a brief overview of the project, the models submitted, and the plans for the formal tests. Further consideration of the relative merits and hazard implications of the various models will presumably be published in the years to come.
+
+THE MODELS
+Figures 1, 2, and 3 show, for each model submitted, maps of earthquake rates for M  5.0, M  6.5, and M  8.0, respectively. The remainder of this section discusses each model in more detail. NSHMP-2002--Time Independent Model The U.S. Geological Survey (USGS), in cooperation with the California Geological Survey (CGS), has developed time-independent forecasts as part of the USGS National Seismic Hazard Mapping Program (NSHMP) (Frankel et al. 2002). The model for California, discussed by Petersen et al. (2007) in this issue, is composed of four types of earthquake sources: Type-A faults, Type-B faults, Type-C zones, and distributed background seismicity. The Type-A faults, which are generally those that have relatively high slip rates and paleoseismic constraints on recurrence intervals, are divided into segments and the frequency of both single- and multisegment ruptures are determined by satisfying slip rates (moment balancing). Type-B faults are assumed to have a magnitude frequency distribution composed of 67% characteristic (full-fault) ruptures, where the magnitude is determined from a magnitude-area relationship, and 33% Gutenberg-Richter events (Gutenberg and Richter 1944) between magnitude 6.5 and the upper characteristic magnitude. The four Type-C zones are regions in eastern California and western Nevada that exhibit demonstrable geodetic deformation, but where the causative faults remain elusive. These are modeled with a Gutenberg-Richter distribution of events. Finally, distributed "background" seismicity accounts for all other possible ruptures. These are modeled as a uniform grid of Gutenberg-Richter sources where the a values are constrained by smoothed historical seismicity, the minimum magnitude is 5.0, and the maximum magnitude is 7.0 (or 6.5 if near a Type-A or Type-B fault to avoid double counting). This model is not only used in the official USGS Hazard Map for California, but it also forms the basis of the current building code. WGCEP-UCERF1 This model, also described in this issue by Petersen et al. (2007), is identical to the NSHMP Time-Independent Model, but where time-dependent probabilities are assigned to the Type-A faults. For San Francisco Bay area faults the probabilities were taken from the WGCEP (2003). These constitute a weighted
+8 Seismological Research Letters Volume 78, Number 1
+
+average of the following recurrence models: Poisson; Brownian passage time (BPT); BPT with a stress-change-induced step; empirical (to account for an apparent lull in seismicity following the great 1906 event), and a "time-predictable" model for the San Andreas fault. For Type-A faults in southern California, time-dependent conditional probabilities were computed assuming a log-normal distribution of recurrence intervals. This time-dependent model, which was developed by an ongoing WGCEP (http://www.WGCEP.org), is referred to as the Uniform California Earthquake Rupture Forecast version 1 (UCERF1). It is intended to represent an interim milestone, as the official and final WGCEP model (version 2) is to be released in September 2007. Nevertheless, this model represents an important basis for comparison in that it is the only RELM model that embodies the methodology of previous WGCEPs. Kagan et al. (2007) Smoothed-Seismicity Model This is a five-year forecast based on a spatially smoothed historical earthquake catalog using the methodology described by Kagan and Jackson (1994). The historical catalog includes M 5 and greater events observed between 1800 and present. Aftershocks and foreshocks are included, and the finite spatial extent of large historic earthquakes is accounted for by partitioning the contribution over the associated grid points. Their use of only M  5 events was to avoid "complications of smaller earthquakes caused by volcanism, geothermal activity or fault creep." A tapered Gutenberg-Richter distribution is assumed at each grid point with a minimum magnitude of 5.0, a b-value  Figure 1. Expected number of M   earthquakes in 0.1-degree
+latitude/longitude bins for the next five years in a region surrounding California. The value in the lower left of each image gives the total number of M   events expect throughout the region over the next five years, where an asterisk indicates that aftershocks are included in the model. Actually, the rates cited here are for M  4.9 given the width of the first magnitude bin in each forecast. The number in the upper right of each image identifies the particular RELM model as follows: 1. NSHMP-2002 (Petersen et al. 2007) 2. WGCEP-UCERF1 (Petersen et al. 2007) 3. Kagan et al. (2007) 4. Helmstetter et al. (2007) without aftershocks . Helmstetter et al. (2007) with aftershock . Wiemer & Schorlemmer (2007) 7. Holliday (2007) 8. Shen et al. (2007) 9. Bird & Liu (2007) 10. Ward (2007) Seismic model with Mmax=8.1 11. Ward (2007) Geodetic model with Mmax=8.1 12. Ward (2007) Geologic model with Mmax=8.1 13. Ward (2007) Combined model with Mmax=8.1 14. Ward (2007) Simulation model 1. Ebel et al. (2007) without aftershocks 1. Ebel et al. (2007) with aftershocks. Note that Kagan et al. (2007) and Shen et al. (2007) also have alternative models that include aftershocks (not shown), where rates are approximately 33% and 40% higher, respectively.
+
+January/February 2007
+
+1
+
+2
+
+3
+
+4
+
+22.9
+
+22.9
+
+12.2
+
+21.1
+
+5
+
+6
+
+7
+
+8
+
+35.4*
+
+23.7
+
+30.0
+
+10.5
+
+9
+
+10
+
+11
+
+12
+
+55.9*
+
+15.9
+
+24.3
+
+16.6
+
+13
+
+14
+
+15
+
+16
+
+18.9
+
+7.44
+-5 -4
+
+28.2
+-3
+
+114.7*
+-2 -1
+
+M5 Rate (num/5yrs)
+
+10
+
+10
+
+10
+
+10
+
+10
+
+Seismological Research Letters Volume 78, Number 1 January/February 2007
+
+9
+
+1
+
+2
+
+3
+
+4
+
+2.53
+
+2.56
+
+0.38
+
+0.89
+
+5
+
+6
+
+7
+
+8
+
+1.25*
+
+1.51
+
+0.95
+
+0.31
+
+9
+
+10
+
+11
+
+12
+
+2.05*
+
+0.69
+
+1.05
+
+0.72
+
+13
+
+14
+
+15
+
+16
+
+0.82
+
+0.74
+
+1.86
+
+3.31*
+
+M6.5 Rate (num/5yrs)
+
+10
+
+-6
+
+10
+
+-5
+
+10
+
+-4
+
+10
+
+-3
+
+10
+
+-2
+
+ Figure 2. Same as figure 1, but for M  . (or more precisely, M  .4 given the width of the magnitude bin centered on M .).
+
+10
+
+Seismological Research Letters Volume 78, Number 1
+
+January/February 2007
+
+1
+
+2
+
+3
+
+4
+
+0.0109
+
+0.0099
+
+0.0082
+
+0.0072
+
+5
+
+6
+
+7
+
+8
+
+0.0087*
+
+0.11
+
+0.03
+
+0.0054
+
+9
+
+10
+
+11
+
+12
+
+0.0476*
+
+0.0085
+
+0.013
+
+0.0089
+
+13
+
+14
+
+15
+
+16
+
+0.0101
+
+0.01
+­8 ­7
+
+0.0225
+­6
+
+0.0225*
+­5 ­4
+
+M  8 Rate (num/5yrs)
+
+10
+
+10
+
+10
+
+10
+
+10
+
+ Figure 3. Same as figure 1, but for M  8.0 (or more precisely, M  7.9 given the width of the magnitude bin centered on M 8.0).
+
+Seismological Research Letters Volume 78, Number 1 January/February 2007 11
+
+of 0.95, and an upper "corner" magnitude of 8.0 (the tapered distribution includes nonzero rates above this magnitude). This model is unique in terms of forecasting focal mechanisms as well. Unfortunately, the current application is restricted to southern California due to data limitations. Helmstetter et al. (2007) Smoothed-Seismicity Model This model is similar to the Kagan et al. (2007, this issue) smoothed-seismicity model except that: (1) it includes smaller (M  2.0) events; (2) aftershocks are removed from the catalog; (3) the smoothing kernel is optimized; and (4) b-value is 0.95 for the five-year forecast including aftershocks and is 0.89 for the five-year forecast excluding aftershocks. They claim that "including small m  2 events to predict larger m  5 events significantly improves the performance of the model." Wiemer and Schorlemmer (2007) ALM Model The Asperity-based Likelihood Model (ALM) is also a fiveyear forecast that assumes a Gutenberg-Richter distribution of events at each grid point based on declustered, observed seismicity. However, in addition to spatially variable a-values, this model also includes spatially variable b-values where they are well constrained by smaller events. The assumption here is that the a- and b-values implied by microseismicity can and should be extrapolated to predict the rate of larger events. They extrapolate all the way out to magnitude 9 but caution that a lower truncation should be applied in hazard calculations. Holliday et al. (2007) Pattern Informatics Model The Pattern Informatics (PI) model essentially identifies those areas that have undergone a seismicity rate increase or decrease at the location of future events. The working assumption is that "fluctuations in seismicity rate ... may be related to the preparation phase of large earthquakes." The PI map is a binary forecast in that the events are predicted to occur only in the identified "hotspots." To get to a five-year forecast of the rate of all M  5 events, as required by RELM, they combine this map with a Relative Intensity (RI) map, which is simply proportional to the observed rate of events in each grid cell. In essence, each hotspot is given a rate that is 10 times greater than the highest rate in the RI map. The PI and RI maps are not independent, however, because to qualify as a hotspot in the PI map the area must also be in the 10% most active area of the RI map. Finally, they assume a Gutenberg-Richter distribution of events at each grid point with a minimum magnitude of 5, a b-value of 0.95, and no maximum-magnitude truncation. Their paper also contains discussion on the relative merits of binary versus continuum forecasts and tests thereof. Shen et al. (2007) Geodetic Strain-Based Forecast This model starts with a map of maximum shear strain rate derived from the interpolation of GPS data and then converts this to an equivalent moment-rate map using the Kostrov (1974) equation. Each grid point is then assumed to partici-
+
+pate in a tapered Gutenberg-Richter distribution of events with a minimum magnitude of 5.0, a b-value of 0.98, and an upper corner magnitude of 8.02. The resultant five-year forecast is not modified to remove aftershocks (it includes them). They caution that their assumption "that Kostrov's formula holds over regions whose dimensions are determined by the resolution of present geodetic data" is "speculation." Bird and Liu (2007) SHIFT Model This model is constructed in a two-step process. The first incorporates plate tectonic, geologic, geodetic, and stress-direction data into a kinematic, finite-element, neotectonic deformation model known as NeoKinema. The deformation, or moment rate, thereby resolved both on and off modeled faults is then converted to a rate of earthquakes in the second step by applying their Seismic Hazard Inferred from Tectonics (SHIFT) hypothesis. The conjecture here is that the hypocenters at each location follow a tapered Gutenberg-Richter distribution, and that associated parameters can be inferred from a worldwide dataset of similar plate boundary, crust, and faulting types (compiled by Bird and Kagan (2004). Most locations in California end up with a corner magnitude of 8.01, a b-value of 0.98 and an avalue constrained from the moment rate obtained in the first step. They caution that they do not expect their model to outperform catalog-based forecasts in a five-year test because they don't include recent aftershock swarms, but that their model may be more robust for longer forecasts. They predict a total rate of earthquakes in the RELM test area that is about 40% higher than the historical rate, suggesting that "California ... may be temporarily below the long-term seismicity because of the recent lack of great earthquakes ... to stimulate aftershocks." Ward (2007) Models Ward has submitted five different models. One is based on smoothed, M  5 seismicity similar to the Kagan et al. (2007, this issue) model. Another is based on GPS-derived strain and Kostrov's formula similar to the Shen et al. (2007, this issue) model. A third is based on geologic fault-slip data where the moment rate on small fault patches is smoothed spatially over tens of kilometers using a Gaussian filter. All of these models convert moment rate to earthquake rate using a GutenbergRichter distribution with a minimum magnitude of 5, a b-value of 0.9, and a maximum magnitude of either 8.1 or 8.5 (two options). The fourth model is simply an average of the above three models. The final forecast is based on an earthquake simulator (Ward 1997, 2000), where earthquakes are generated spontaneously when driving stresses exceed the frictional strength of faults (using quasi-static stress transfer and a twoparameter velocity-weakening friction law). The moment-rate distribution is identical to the fault-based model described above. However, rather than assuming a magnitude-frequency distribution, the rate of various-sized events is dictated by the physics in the simulator. The forecast is generated by smoothing a very long, synthetic-event catalog into a rate density map.
+
+12
+
+Seismological Research Letters Volume 78, Number 1
+
+January/February 2007
+
+Gerstenberger et al. (2007) STEP Model This paper explores additional tests of the previously published Short Term Earthquake Probability (STEP) model (Gerstenberger et al. 2005). STEP is a 24-hour forecast based on foreshock/aftershock statistics. It combines a background (time-independent) model with aftershock rates predicted using the Reasenberg and Jones (1989, 1990, 1994) combination of the Gutenberg-Richter distribution and the modified Omori law (Ogata 1983). Depending on data availability, up to three different aftershock-sequence models are applied for each mainshock: (1) a generic model based on average California parameters; (2) a sequence-specific model where parameters are determined from observed aftershocks; and (3) a spatially variable model where parameters are determined for individual grid points. These three models are combined using the Akaike Information Criterion (e.g., Burnham and Anderson 2002). The final forecasted rate of M  5 events at each grid point is taken as the greatest among the background and all aftershock sequences that overlap with that location. The maximum magnitude for all aftershock sequences is 8.0. This model, which has been formally reviewed by the California Earthquake Prediction Evaluation Council, is then used to generate 24-hour aftershock hazard maps that are posted on the USGS Web site (http:// pasadena.wr.usgs.gov/step/). One interesting implication of the model is that the greatest probability of a "big one" on the southern San Andreas fault will occur, for example, immediately after it actually happens. Console et al. (2007) ETAS-Type Models This group presents 24-hour forecasts based on two Epidemictype Aftershock Sequence (ETAS) models, where each event can spawn its own sequence of events (including aftershocks of aftershocks). The first is a purely stochastic ETAS model (e.g., Ogata 1998; Console and Murru, 2001), where the temporal aftershock decay rate is governed by the modified Omori Law (Ogata 1983) and the distance decay follows a power-law. The second epidemic state-rate (ERS) forecast uses Dieterich's (1994) rate and state model to predict the spatial and temporal decay of aftershocks. This more physical approach requires knowing the stress change caused by each event. Rather than computing this directly for each triggering event (e.g., using the focal mechanism with Coulomb stress calculations), they assume it follows a radially symmetric power-law decay with distance. Both of their models assume a Gutenberg-Richter distribution of events. By fixing several of the rate and state parameters, the ERS model ends up having fewer free parameters than the stochastic ETAS model. However, testing the models against California seismicity implies that the more physical ERS model does not perform better than the purely stochastic ETAS model (Console et al. 2006). Nevertheless, they feel that the ERS model does provide "new and interesting insights on the physics of the seismogenic process." Rhoades (2007) EEPAS Model This model makes one-year forecasts based on the notion that "Every Earthquake is a Precursor According to Scale" (EEPAS).
+
+That is, every event implies an increase in the rate of subsequent events as a function of time, proximity, and magnitude of both the triggered and triggering event. The associated influence of each of these terms was derived statistically and empirically by Evison and Rhoades (2004). The total rate of events at each grid point is the sum of a background rate and the influence of each recent event. The idea is not that smaller events trigger larger ones, as in an ETAS-type model, but rather that smaller events reveal a preparatory stage. In this application their parameter settings have effectively been optimized to forecast M 5­6 events, and they caution that this may diminish the ability to forecast M > 6 events. Ebel et al. (2007) Models This group has provided two five-year forecasts based on the observed rate of M  5 events in each grid cell, one from a catalog that includes aftershocks and the other from a catalog that has been declustered using the Gardner and Knopoff (1974) method. They also plan to submit 24-hour forecasts that will include both aftershock statistics and longer-range triggering effects, the latter being due to the fact that their declustered catalog exhibits rates that are significantly higher than Poissonian in the first few days after an M  4 event. They are also developing a "hidden Markov model" (HMM) that they intend to submit for making 24-hour forecasts.
+
+TESTING
+Building on work by Kagan and Jackson (1995), the paper by Schorlemmer et al. (2007, this issue) presents the prospective RELM tests that are based on likelihood methods. Each modeler submits a grid-based forecast giving rates of earthquakes in 0.1-degree latitude/longitude and 0.1-magnitude bins (depth and focal-mechanism bins may also be specified in future tests). Once submitted, we wait to see how many events actually occur in each bin in the future, making the test truly prospective. The likelihood test then simply asks what the probability of observing that number of events is, given the rate predicted by the model (assuming a Poisson process over the duration of the experiment). A total log-likelihood is then computed by summing the logarithm of the probabilities over all bins. In principle, the model with the greatest log likelihood wins the contest. However, complications arise with respect to several issues including (1) whether differences are statistically significant given limited observations; (2) the treatment of magnitude and location uncertainties in those observations; and (3) the handling of dependent events such as aftershocks. As described by Schorlemmer et al. (2007, this issue), these issues are addressed by defining different types of tests involving rather sophisticated sets of simulations. Another paper by Schorlemmer and Gerstenberger (2007, this issue) describes the RELM testing center that has been erected to host and evaluate the submissions. Once submitted, a model cannot be changed (although the authors can always declare it no longer valid). The five-year RELM forecasts presented in this special issue were submitted to the center before
+
+Seismological Research Letters Volume 78, Number 1 January/February 2007 13
+
+1 January 2006 (as flat files giving the rates in the various bins). Both one-year and 24-hour forecasts will also be accommodated in the future, but these will require the submission of computer code so that test operators can generate the forecasts without intervention from the authors. Originally there was talk of establishing some kind of prize for the RELM-test winner. However, doing so would require nailing down all details in advance, and we know that's precisely where the proverbial devil lies. In fact, the variety of tests outlined by Schorlemmer et al. (2007, this issue) exemplify the lack of a single solution, and those authors acknowledge that other tests are needed as well. For example, under the current scheme a model may win by virtue of predicting M 5 to 6 events well (where most of the observations will lie), but it could be completely wrong at the larger magnitudes that dominate hazard. There is also the question of how long we will have to wait to get definitive answers. The testing aspect of RELM is arguably the most important part of the project. However, it is also the most challenging, and we acknowledge that resources have thus far been inadequate to do it justice. To accelerate progress, SCEC is collaborating with international partners to develop a Collaboratory for the Study of Earthquake Predictability (CSEP), discussed by Jordan (2006). The goal is to establish an international infrastructure for the submission and evaluation of earthquake forecasts and predictions. The RELM tests for hypocenter-based forecasts will be folded into CSEP. The new center will also evaluate other types of predictive statements, such as alarm-based forecasts, using Molchan error diagrams (Molchan 1997), and contingency-table tests ( Joliffe and Stephenson 2003).
+
+DISCUSSION
+Most would agree that a large region such as California exhibits a Gutenberg-Richter distribution of events. However, all but three RELM models take the additional leap of faith that every point in the region produces a Gutenberg-Richter distribution of hypocenters. The alternative assumption made in the NSHMP-2002 and WGCEP-UCERF1 models, which some would argue is an even greater leap of faith (e.g., Jackson and Kagan 2006), is that earthquake rates are relatively high near the maximum "characteristic" magnitude of each fault (e.g., Schwartz and Coppersmith 1984). Another assumption made by the RELM models that apply Gutenberg-Richter everywhere is that the maximum magnitude is spatially invariant. This is illustrated in figure 3, where nonzero rates for M  8 events are seen throughout the entire forecast region for all models except NSHMP-2002 and WGCEP-UCERF1. The objection to M  8 earthquakes anywhere is that capable faults, such as the San Andreas, aren't seen everywhere (e.g., Schwartz 1996). Bird and Liu (2007, this issue) take this potential criticism head-on by noting that earthquakes "may percolate along the quasi-fractal network of interconnected faults, or even break new fractures in the lithosphere." Resolving these issues will remain a challenge because the large events are infrequent.
+
+Although the models presented in this special issue of SRL represent a good start, they by no means span the entire range of viability. For example, there are no models that make extensive use of Coulomb failure criteria (e.g., Stein et al. 1997; Toda et al. 2005) or of accelerating moment release (e.g., Bowman and King 2001). Also missing is the "Virtual California" physicsbased earthquake simulator that has been published elsewhere (e.g., Rundle 1988; Rundle et al. 2004). The RELM models can presently be evaluated in terms of hazard implications via OpenSHA (http://www.OpenSHA.org; Field et al. 2003). However, all but two of the models are strictly grid-based, hypocenter forecasts, which, although appropriate for RELM testing, are of limited value for hazard analysis where the finite extent of rupture is important. Simple schemes exist for assigning finite ruptures to a given hypocenter, but there is definitely room for improvement using additional constraints such as the probable focal mechanisms given by Kagan et al. (2007, this issue). As discussed in the introduction, the availability of multiple models is good for defining hazard uncertainties and for maintaining stability. However, it may lead to grief for those practitioners at a loss in terms of making a choice in a given application. For example, the California Earthquake Authority is required by law to use "best available science" in setting residential insurance rates. Short of definitive test results, the RELM free-market approach does not help with such decisions. We will therefore continue to rely on entities such as the USGS, CGS, the Working Group on California Earthquake Probabilities, and both the California and National Earthquake Prediction Evaluation Councils to provide models and evaluations for use in public policy decisions. Nevertheless, the RELM free-market approach should provide good fodder for those deliberations. Further information, including model analysis tools, can be found at http://www.RELM.org.
+
+ACKNOWLEDGMENTS
+I'd like to thank Karen Felzer, Thomas Jordan, Susan Hough, David Jackson, Yan Kagan, Peter Bird, and several authors of the papers in this special issue for their thoughtful and influential review comments. I'd also like to acknowledge the hard work of Danijel Schorlemmer in setting up the test center and making the forecast data accessible. Finally, the figures in this paper and on the cover of this special issue were produced by Nitin Gupta and Vipin Gupta.
+
+REFERENCES
+Bird, P., and Y. Y. Kagan (2004). Plate-tectonic analysis of shallow seismicity: Apparent boundary width, beta, corner magnitude, coupled lithosphere thickness, and coupling in seven tectonic settings. Bulletin of the Seismological Society of America 94, 2,380­2,399, plus electronic supplement. Bird, P., and Z. Liu (2007). Seismic hazard inferred from tectonics: California. Seismological Research Letters 78 (1), 37­48. Bowman, D. D., and G. C. P King (2001). Accelerating seismicity and stress accumulation before large earthquakes. Geophysical Research Letters 28, 4,039­4,042.
+
+14
+
+Seismological Research Letters Volume 78, Number 1
+
+January/February 2007
+
+Burnham, K. P., and D. R. Anderson (2002). Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach. New York: Springer. Console, R., and M. Murru (2001). A simple and testable model for earthquake clustering. Journal of Geophysical Research 106, 8,699­8,711. Console, R., M. Murru, and F. Catalli (2006). Physical and stochastic models of earthquake clustering. Tectonophysics 417, 141­153. Console, R., M. Murru, F. Catalli, and G. Falcone (2007). Real time forecasts through an earthquake clustering model constrained by the rate-and-state constitutive law: Comparison with a purely stochastic ETAS model. Seismological Research Letters 78 (1), 49­56. Dieterich, J. H. (1994). A constitutive law for rate of earthquake production and its application to earthquake clustering. Journal of Geophysical Research 99, 2,601­2,618. Ebel, J., D. W. Chambers, A. L. Kafka, and J. A. Baglivo (2007). NonPoissonian earthquake clustering and the hidden Markov model as bases for earthquake forecasting in California. Seismological Research Letters 78 (1), 57­65. Evison, F. F., and D. A. Rhoades (2004). Demarcation and scaling of longterm seismogenesis. Pure and Applied Geophysics 161, 21­45. Field, E. H., T. H. Jordan, and C. A. Cornell (2003). OpenSHA: A developing community-modeling environment for seismic hazard analysis. Seismological Research Letters 74, 406­419. Frankel, A. D., M. D. Petersen, C. S. Mueller, K. M. Haller, R. L. Wheeler, E. V. Leyendecker, R. L. Wesson, S. C. Harmsen, C. H. Cramer, D. M. Perkins, and K. S. Rukstales (2002). Documentation for the 2002 Update of the National Seismic Hazard Maps. USGS Open-File Report 02-420. Gardner, J. K., and L. Knopoff (1974). Is the sequence of earthquakes in southern California with aftershocks removed Poissonian? Bulletin of the Seismological Society of America 64, 1,363­1,367. Gerstenberger, M., S. Wiemer, L. M. Jones, and P. A. Reasenberg (2005). Real-time forecast of tomorrow's earthquakes in California. Nature 435, 328­331. Gerstenberger, M. C., L. M. Jones, and S. Wiemer (2007). Short-term Aftershock Probabilities: Case Studies in California 78 (1), 66­77. Gutenberg, B., and C. F. Richter (1944). Frequency of Earthquakes in California, Bulletin of the Seismological Society of America 34, 137­ 160. Helmstetter, A., Y. Y. Kagan, and D. D. Jackson (2007). High-resolution Time-independent Grid-based Forecast for m  5 Earthquakes in California. Seismological Research Letters 78 (1), 78­86. Holliday, J. R., C. Chen, K. F. Tiampo, J. B. Rundle, D. L. Turcotte, and A. Donnellan. (2007). A RELM Earthquake Forecast Based on Pattern Informatics. Seismological Research Letters 78 (1), 87­93. Jackson, D. D. (1996). The case for huge earthquakes. Seismological Research Letters 67, 3­5. Jackson, D. D., and Y. Y. Kagan (2006). The 2004 Parkfield earthquake, the 1985 prediction, and characteristic earthquakes: Lessons for the future. Bulletin of the Seismological Society of America 96, S397­ S409. Joliffe, I. T., and D. B. Stephenson (2003). Forecast Verification--A Practitioner's Guide in Atmospheric Science. Chichester, England, and Hoboken, NJ: John Wiley & Sons. Jordan, T. H. (2006). Earthquake predictability, brick by brick. Seismological Research Letters 77, 3­6. Kagan, Y. Y., and D. D. Jackson (1994). Long-term probabilistic forecasting of earthquakes, Journal of Geophysical Research 99, 13,685­ 13,700. Kagan, Y. Y., and D. D. Jackson (1995). New seismic gap hypothesis: Five years after. Journal of Geophysical Research 100, 3,943­3,959. Kagan, Y. Y., D. D. Jackson, Y. Rong (2007). A Testable Five-year Forecast of Moderate and Large Earthquakes in Southern California based on Smoothed Seismicity. Seismological Research Letters 78 (1), 94­98.
+
+Kostrov, B. V. (1974). Seismic moment and energy of earthquakes, and seismic flow of rock. Izvestiya Academy of Sciences of the USSR (Physics of Solid Earth) 1, 23­40. Ogata, Y. (1983). Estimation of the parameters in the modified Omori formula for aftershock frequencies by the maximum likelihood procedure. Journal of Physics of the Earth 31, 115­124. Ogata, Y. (1998). Space-time point-process models for earthquake occurrences. Annals of the Institute of Statistical Mathematics 50, 379­ 402. Molchan, G. M. (1997). Earthquake predictions as a decision-making problem. Pure and Applied Geophysics 149, 233­247. Petersen, M. D., T. Cao, K. W. Campbell, and A. D. Frankel (2007). Timeindependent and Time-dependent Seismic Hazard Assessment for the State of California: Uniform California Earthquake Rupture Forecast Model 1.0. Seismological Research Letters 78 (1), 99­109. Reasenberg, P. A., and L. M. Jones (1989). Earthquake hazard after a mainshock in California. Science 243, 1,173­1,176. Reasenberg, P. A., and L. M. Jones (1990). California aftershock hazard forecast. Science 247, 345­346. Reasenberg, P. A., and L. M. Jones (1994). Earthquake aftershocks: Update. Science 265, 1,251­1,252. Rhoades, D. A. (2007). Application of the EEPAS Model to Forecasting Earthquakes of Moderate Magnitude in Southern California. Seismological Research Letters 78 (1), 110­115. Rundle, J. B. (1988). A physical model for earthquakes, 2, Application to southern California. Journal of Geophysical Research 93, 6,255­ 6,274. Rundle, J. B., P. B. Rundle, A. Donnellan, and G. C. Fox (2004). Gutenberg-Richter statistics in topologically realistic system-level earthquake stress-evolution simulations. Earth, Planets and Space 56, 761­771. Schorlemmer, D., M. C. Gerstenberger, S. Wiemer, D. D. Jackson, and D. A. Rhoades (2007) Earthquake Likelihood Model Testing. Seismological Research Letters 78 (1), 17­29. Schorlemmer, D., and M. C. Gerstenberger (2007). RELM Testing Center. Seismological Research Letters 78 (1), 30­36. Schwartz, D. P., and K. J. Coppersmith (1984). Fault behavior and characteristic earthquakes: Examples from the Wasatch and San Andreas fault zones. Journal of Geophysical Research 89, 5,681­5,698. Schwartz, D. P. (1996). Opinion letter. Seismological Research Letters 67, 5­6. Shen, Z.-K., D. D. Jackson, and Y. Y. Kagan (2007). Implications of geodetic strain rate for future earthquakes, with a five-year forecast of M5 earthquakes in southern California. Seismological Research Letters 78 (1), 116­120. SSHAC, Senior Seismic Hazard Analysis Committee (1997). Recommendations for Probabilistic Seismic Hazard Analysis: Guidance on Uncertainty and Use of Experts. U.S. Nuclear Regulatory Commission, U.S. Dept. of Energy, Electric Power Research Institute; NUREG/CR-6372, UCRL-ID-122160, Vol. 1-2. Also a review of the document by National Academy Press, Washington, DC, 73 pp. Steacy, S., J. Gomberg, and M. Cocco (2005). Introduction to special section: Stress transfer, earthquake triggering, and time-dependent seismic hazard. Journal of Geophysical Research 110, B05S01, doi:10.1029/2005JB003692. Stein, R. S., A. A. Barka, and J. H. Dieterich (1997). Progressive failure on the North Anatolian fault since 1939 by earthquake stress triggering. Geophysical Journal International 128, 594­604. Toda, S., R. S. Stein, K. Richards-Dinger, and S. Bozkurt (2005). Forecasting the evolution of seismicity in southern California: Animations built on earthquake stress transfer. Journal of Geophysical Research 110, B05S16, doi:10.1029/2004JB003415. Ward, S. N. (1997). Dogtails versus rainbows: Synthetic earthquake rupture models as an aid in interpreting geological data. Bulletin of the Seismological Society of America 87, 1,422­1,441.
+
+Seismological Research Letters Volume 78, Number 1 January/February 2007 1
+
+Ward, S. N. (2000). San Francisco Bay area earthquake simulations: A step toward a standard physical earthquake model. Bulletin of the Seismological Society of America 90, 370­386. Ward, S. N. (2007). Methods for evaluating earthquake potential and likelihood in and around California. Seismological Research Letters 78 (1), 121­133. Wiemer, S., and D. Schorlemmer (2007). ALM: An asperity-based likelihood model for California. Seismological Research Letters 78 (1), 134­140. WGCEP, Working Group on California Earthquake Probabilities [ Jackson, D. D.; Aki, K.; Cornell, C. A.; Dieterich, J, H.; Henyey, T. L.; Mahdyiar, M.; Schwartz, D.; Ward, S. N.] (1995). Seismic
+
+hazards in southern California: Probable earthquakes, 1994­2024. Bulletin of the Seismological Society of America 85, 379­439. WGCEP, Working Group on California Earthquake Probabilities (2003). Earthquake Probabilities in the San Francisco Bay Region: 2002­ 2031. USGS Open-File Report 03-214.
+
+U.S. Geological Survey 525 S. Wilson Ave. Pasadena, California 91106 USA
+field@usgs.gov
+
+1
+
+Seismological Research Letters Volume 78, Number 1
+
+January/February 2007
+
+
